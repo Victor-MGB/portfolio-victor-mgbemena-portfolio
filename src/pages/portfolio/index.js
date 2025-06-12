@@ -2,9 +2,11 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import { dataportfolio, meta } from "../../content_option";
+import { meta } from "../../content_option";
 import sheritageYellow from "../../assets/images/Annotation 2025-06-10 211635.png";
-import bitfluxcapital from "../../assets/images/Annotation 2025-06-11 200737.png"
+import sheritageYellow1 from "../../assets/images/Annotation 2025-06-12 061948.png";
+import bitfluxcapital from "../../assets/images/Annotation 2025-06-11 200737.png";
+import vacation from "../../assets/images/Annotation 2025-06-12 063247.png";
 
 export const Portfolio = () => {
   return (
@@ -31,7 +33,7 @@ export const Portfolio = () => {
           Designed with a clean and intuitive interface, Sheritage empowers users to efficiently manage their finances with ease and confidence.
         </p>
         <div className="mb-3">
-          <strong>Skills:</strong> React, Bootstrap, CSS
+          <strong>Skills:</strong> React, TailwindCss, CSS, Nodejs, Express, MongoDB, Mongoose, JWT, Bcrypt, Axios, and more.
         </div>
         <a href="https://sheritage-shb.netlify.app/" className="btn btn-primary mt-auto" target="_blank" rel="noreferrer">
           View Project
@@ -49,9 +51,51 @@ export const Portfolio = () => {
           API integration, user experience design, and building scalable web applications in the fintech space.
         </p>
         <div className="mb-3">
-          <strong>Skills:</strong> React, Bootstrap, CSS
+          <strong>Skills:</strong> React, TailwindCss, CSS, Node.js, Express.js, MongoDB, Mongoose, Jwt, Bcrypt, Axios, and more.
         </div>
         <a href="https://bitfluxcapital.netlify.app/" className="btn btn-primary mt-auto" target="_blank" rel="noreferrer">
+          View Project
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div className="col-md-6 mb-4">
+    <div className="card h-100">
+      <img src={sheritageYellow1} className="card-img-top" alt="Project Screenshot" />
+      <div className="card-body d-flex flex-column">
+        <p className="card-text text-black flex-grow-1">
+          <strong>Sheritage recap</strong>   is a secure, user-friendly digital banking platform designed to provide customers with seamless access to their financial services anytime, anywhere. Built with modern web technologies, Sheritage Online Banking offers a comprehensive suite of features including account management, fund transfers, bill payments, transaction history, and real-time notifications. The platform emphasizes security with robust authentication, encryption, and fraud prevention measures to ensure users’ data and money are always protected. 
+          Designed with a clean and intuitive interface, Sheritage empowers users to efficiently manage their finances with ease and confidence.
+        </p>
+        <div className="mb-3">
+          <strong>Skills:</strong> React, TailwindCss, CSS, Nodejs, Express, MongoDB, Mongoose, JWT, Bcrypt,  
+        </div>
+        <a href="https://sheritage.netlify.app/" className="btn btn-primary mt-auto" target="_blank" rel="noreferrer">
+          View Project
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div className="col-md-6 mb-4">
+    <div className="card h-100">
+      <img src={vacation} className="card-img-top" alt="Project Screenshot" />
+      <div className="card-body d-flex flex-column">
+        <p className="card-text text-black flex-grow-1">
+          <strong>Asian Vac 🌴 VacationVista – Your Gateway to Memorable Getaways</strong>  is a beautifully designed vacation booking platform that helps users discover, plan, and reserve unforgettable travel experiences. Whether you're dreaming of a beach escape, a mountain retreat, or a cultural city tour, 
+          this site offers an intuitive and inspiring interface to explore destinations, view accommodations, check availability, and book seamlessly.
+        </p><br />
+        The platform features:
+        <p className="card-text text-black flex-grow-1"><strong>🏝️ Destination browsing</strong> with stunning visuals</p>
+        <p className="card-text text-black flex-grow-1"><strong>🏨 Accommodation listings</strong> with detailed descriptions and reviews</p>
+        <p className="card-text text-black flex-grow-1"><strong>📅 Real-time booking system</strong> for planning and reservations</p>
+        <p className="card-text text-black flex-grow-1"><strong>🌐 Responsive design</strong> for mobile, tablet, and desktop</p>
+        <p className="card-text text-black flex-grow-1"><strong>🔐 Secure payment integration</strong> for hassle-free transactions</p>
+        <div className="mb-3">
+          <strong>Skills:</strong> React, TailwindCss, CSS
+        </div>
+        <a href="https://asian-vac.netlify.app/" className="btn btn-primary mt-auto" target="_blank" rel="noreferrer">
           View Project
         </a>
       </div>
