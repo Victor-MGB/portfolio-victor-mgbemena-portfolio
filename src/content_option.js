@@ -1,52 +1,128 @@
-const logotext = "JOHN";
+// import mgbImage from "./assets/images/mgb (1).jpg"
+const logotext = "VICTOR";
 const meta = {
-    title: "John Doe",
+    title: "Victor Mgbemena | Portfolio",
     description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Victor Mgbemena",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
-    },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    first: "I'm a passionate Software Engineer",
+    second: "I build scalable backend systems",
+    third: "I develop high-performance APIs",
+    fourth: "I write clean, efficient code",
+    fifth: "I engineer secure applications",
+    sixth: "I specialize in AppSec best practices",
+    seventh: "I turn data into decisions",
+    eighth: "I build predictive ML models",
+    ninth: "I create software that solves problems"
+},
+
+    description: "Experienced Software Engineer with a strong focus on backend development, application security, and data science/machine learning. I design and implement scalable systems, ensure secure application architectures, and build intelligent solutions that solve real-world problems. Committed to writing clean, efficient code and continuously driving technical excellence.",
+    your_img_url: "https://victor-main-portfoilo.netlify.app/static/media/mgb.93ba7cc1c85e5cfdd9df.jpg", // Replace with your image URL
 };
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "Experienced Software Engineer with a strong focus on backend development, application security, and data science/machine learning. I design and implement scalable systems, ensure secure application architectures, and build intelligent solutions that solve real-world problems. Committed to writing clean, efficient code and continuously driving technical excellence.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "React Developer",
+        where: "Coldiginfy",
+        date: "2023",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Frontend Developer",
+        where: "Gurutechnology",
+        date: "2023 - 2024",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Digital Strategist / Product Advisor",
+        where: "Nnewi Tech Faculty",
+        date: "2024",
+    },
+    {
+        jobtitle: "Technical Assistant / Web Developer / Digital Content Contributor (NYSC)",
+        where: "Pandas Developers limited",
+        date: "2025 - Present",
+    },
+    {
+        jobtitle: "TrustGuarantee Logistics",
+        where: "Freelance",
+        date: "2022",
+    }
+    ,
+    {
+        jobtitle: "Sheritage Online Banking",
+        where: "Freelance",
+        date: "2023",
+    },
+    {
+        jobtitle: "BitFluxCapital",
+        where: "Freelance",
+        date: "2024",
+    },
+    {
+        jobtitle: "CentralCity Online Banking",
+        where: "Freelance",
+        date: "2022",
     },
 ];
 
 const skills = [{
-        name: "Python",
+        name: "HTML",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "CSS",
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "JavaScript",
+        value: 70,
+    },
+    {
+        name: "TypeScript",
+        value: 75,
+    },
+    
+
+    {
+        name: "Tailwind CSS",
+        value: 70,
+    },
+    {
+        name: "React JS",
+        value: 90,
+    },
+    {
+        name: "Node JS",
+        value: 75,
+    },
+    {
+        name: "Express JS",
+        value: 70,
+    },
+    {
+        name: "MongoDB",
         value: 80,
+    },
+    {
+        name: "Python",
+        value: 60,
+    },
+    {
+        name: "Numpy",
+        value: 65,
+    },
+    {
+        name: "Matplotlib",
+        value: 70,
+    },
+    {
+        name: "PostgreSQL",
+        value: 70,
     },
     {
         name: "React",
@@ -56,6 +132,14 @@ const skills = [{
         name: "Jquery",
         value: 85,
     },
+    {
+        name: "Git and GitHub",
+        value: 80,
+    },
+    {
+        name: "GitAction",
+        value: 70,
+    }
 ];
 
 const services = [{
@@ -73,7 +157,7 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+        img: "../public/assets/images/Annotation 2025-06-10 211635.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
@@ -136,9 +220,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "mgbemenaosonduv@gmail.com",
+    YOUR_FONE: "+2349077955363",
+    description: "I'm a passionate and results-driven developer with a strong foundation in building real-world, user-centric web applications. From creating secure online banking platforms to dynamic cryptocurrency sites, I specialize in transforming ideas into fully functional, responsive, and scalable solutions. Whether you’re building a startup, revamping your digital presence, or need a developer who can turn complex requirements into elegant solutions — I’m ready to help bring your vision to life.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +231,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/Victor-MGB",
+    linkedin: "https://www.linkedin.com/in/victor-osondu-1985a7237/",
+    twitter: "https://x.com/Victor01808002",
 };
 export {
     meta,
