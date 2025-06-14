@@ -7,6 +7,7 @@ import sheritageYellow from "../../assets/images/Annotation 2025-06-10 211635.pn
 import sheritageYellow1 from "../../assets/images/Annotation 2025-06-12 061948.png";
 import bitfluxcapital from "../../assets/images/Annotation 2025-06-11 200737.png";
 import vacation from "../../assets/images/Annotation 2025-06-12 063247.png";
+import figure1 from "../../assets/images/Figure_1.png"
 
 export const Portfolio = () => {
   return (
@@ -33,7 +34,7 @@ export const Portfolio = () => {
           Designed with a clean and intuitive interface, Sheritage empowers users to efficiently manage their finances with ease and confidence.
         </p>
         <div className="mb-3">
-          <strong>Skills:</strong> React, TailwindCss, CSS, Nodejs, Express, MongoDB, Mongoose, JWT, Bcrypt, Axios, and more.
+          <strong className="text-black">Skills: React, TailwindCss, CSS, Nodejs, Express, MongoDB, Mongoose, JWT, Bcrypt, Axios, and more.</strong> 
         </div>
         <a href="https://sheritage-shb.netlify.app/" className="btn btn-primary mt-auto" target="_blank" rel="noreferrer">
           View Project
@@ -51,7 +52,7 @@ export const Portfolio = () => {
           API integration, user experience design, and building scalable web applications in the fintech space.
         </p>
         <div className="mb-3">
-          <strong>Skills:</strong> React, TailwindCss, CSS, Node.js, Express.js, MongoDB, Mongoose, Jwt, Bcrypt, Axios, and more.
+          <strong className="text-black">Skills: React, TailwindCss, CSS, Node.js, Express.js, MongoDB, Mongoose, Jwt, Bcrypt, Axios, and more.</strong> 
         </div>
         <a href="https://bitfluxcapital.netlify.app/" className="btn btn-primary mt-auto" target="_blank" rel="noreferrer">
           View Project
@@ -69,7 +70,7 @@ export const Portfolio = () => {
           Designed with a clean and intuitive interface, Sheritage empowers users to efficiently manage their finances with ease and confidence.
         </p>
         <div className="mb-3">
-          <strong>Skills:</strong> React, TailwindCss, CSS, Nodejs, Express, MongoDB, Mongoose, JWT, Bcrypt,  
+          <strong className="text-black">Skills: React, TailwindCss, CSS, Nodejs, Express, MongoDB, Mongoose, JWT, Bcrypt, </strong>  
         </div>
         <a href="https://sheritage.netlify.app/" className="btn btn-primary mt-auto" target="_blank" rel="noreferrer">
           View Project
@@ -93,9 +94,35 @@ export const Portfolio = () => {
         <p className="card-text text-black flex-grow-1"><strong>🌐 Responsive design</strong> for mobile, tablet, and desktop</p>
         <p className="card-text text-black flex-grow-1"><strong>🔐 Secure payment integration</strong> for hassle-free transactions</p>
         <div className="mb-3">
-          <strong>Skills:</strong> React, TailwindCss, CSS
+          <strong className="text-black">Skills: React, TailwindCss, CSS</strong> 
         </div>
         <a href="https://asian-vac.netlify.app/" className="btn btn-primary mt-auto" target="_blank" rel="noreferrer">
+          View Project
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div className="col-md-6 mb-4">
+    <div className="card h-100">
+      <img src={figure1} className="card-img-top" alt="Project Screenshot" />
+      <div className="card-body d-flex flex-column">
+        <p className="card-text text-black flex-grow-1">
+          <strong> Stock Market Simulator & Visualizer</strong>Just simulated real-world stock price paths using Monte Carlo methods in Python — from scratch with only NumPy and Matplotlib!  
+                  🔁 Simulated 100+ future price paths <br />   📊 Visualized volatility and drift with shaded standard deviations  <br />
+🔍                All math-driven, no libraries — just code + finance concepts.  <br />
+                  Check out the results 👇  
+        </p><br />
+        The platform features:
+        {/* <p className="card-text text-black flex-grow-1"><strong>🏝️ Destination browsing</strong> with stunning visuals</p>
+        <p className="card-text text-black flex-grow-1"><strong>🏨 Accommodation listings</strong> with detailed descriptions and reviews</p>
+        <p className="card-text text-black flex-grow-1"><strong>📅 Real-time booking system</strong> for planning and reservations</p>
+        <p className="card-text text-black flex-grow-1"><strong>🌐 Responsive design</strong> for mobile, tablet, and desktop</p>
+        <p className="card-text text-black flex-grow-1"><strong>🔐 Secure payment integration</strong> for hassle-free transactions</p> */}
+        <div className="mb-3">
+          <strong className="text-black">Skills: Python, Numpy, Matplotlib</strong>
+        </div>
+        <a href="https://github.com/Victor-MGB/interactive_stock_simulator" className="btn btn-primary mt-auto" target="_blank" rel="noreferrer">
           View Project
         </a>
       </div>
