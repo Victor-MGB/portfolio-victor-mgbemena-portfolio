@@ -7,6 +7,7 @@ import sheritageYellow from "../../assets/images/Annotation 2025-06-10 211635.pn
 import sheritageYellow1 from "../../assets/images/Annotation 2025-06-12 061948.png";
 import bitfluxcapital from "../../assets/images/Annotation 2025-06-11 200737.png";
 import vacation from "../../assets/images/Annotation 2025-06-12 063247.png";
+import simdash from "../../assets/images/simlab_dash.png";
 import figure1 from "../../assets/images/Figure_1.png"
 
 export const Portfolio = () => {
@@ -105,29 +106,30 @@ export const Portfolio = () => {
 
   <div className="col-md-6 mb-4">
     <div className="card h-100">
-      <img src={figure1} className="card-img-top" alt="Project Screenshot" />
+      <img src={simdash} className="card-img-top" alt="Project Screenshot" />
       <div className="card-body d-flex flex-column">
         <p className="card-text text-black flex-grow-1">
-          <strong> Stock Market Simulator & Visualizer</strong>Just simulated real-world stock price paths using Monte Carlo methods in Python — from scratch with only NumPy and Matplotlib!  
-                  🔁 Simulated 100+ future price paths <br />   📊 Visualized volatility and drift with shaded standard deviations  <br />
-🔍                All math-driven, no libraries — just code + finance concepts.  <br />
-                  Check out the results 👇  
+          <strong>Immune Simulation Tech Dashboard</strong> A biotech-style data science project simulating immune responses, 
+          treatments, and ML predictions — powered by Python and Streamlit. <br /> This interactive dashboard showcases the immune response of a synthetic population to various treatments such as vaccines, stress, and sleep deprivation.
+            The project mimics real-world experimentation using simulations, and evaluates outcomes using machine learning models.
         </p><br />
         The platform features:
-        {/* <p className="card-text text-black flex-grow-1"><strong>🏝️ Destination browsing</strong> with stunning visuals</p>
-        <p className="card-text text-black flex-grow-1"><strong>🏨 Accommodation listings</strong> with detailed descriptions and reviews</p>
-        <p className="card-text text-black flex-grow-1"><strong>📅 Real-time booking system</strong> for planning and reservations</p>
-        <p className="card-text text-black flex-grow-1"><strong>🌐 Responsive design</strong> for mobile, tablet, and desktop</p>
-        <p className="card-text text-black flex-grow-1"><strong>🔐 Secure payment integration</strong> for hassle-free transactions</p> */}
+        <p className="card-text text-black flex-grow-1"> Synthetic data generated via API and enriched with immune attributes</p>
+        <p className="card-text text-black flex-grow-1">Simulated B-cell and T-cell response under different treatments</p>
+        <p className="card-text text-black flex-grow-1"> ML model (Random Forest) predicts immune strength outcomes</p>
+        <p className="card-text text-black flex-grow-1">Interactive Streamlit dashboard with charts, filters, PCA clusters</p>
+        <p className="card-text text-black flex-grow-1">Designed for portfolio, biotech job readiness, and learning real-world tech practices</p>
         <div className="mb-3">
-          <strong className="text-black">Skills: Python, Numpy, Matplotlib</strong>
+          <strong className="text-black">Skill:  Python, Pandas, Scikit-learn, Streamlit, Matplotlib, Seaborn, GitHub, API Integration, Machine Learning, Data Visualization</strong> 
         </div>
-        <a href="https://github.com/Victor-MGB/interactive_stock_simulator" className="btn btn-primary mt-auto" target="_blank" rel="noreferrer">
+        <a href="https://youtu.be/eJsfz7WLo1Q?si=w9YVZzZ8MNhtUAb5" className="btn btn-primary mt-auto" target="_blank" rel="noreferrer">
           View Project
         </a>
       </div>
     </div>
   </div>
+
+
 </div>
 
         {/* <img src={sheritageYellow} alt=""/> */}
